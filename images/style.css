@@ -1,0 +1,343 @@
+* {
+  margin: 0px;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.header {
+  background-color: #fff8f3;
+  background-image: url(./header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 11%;
+  padding-right: 10%;
+  align-items: center;
+}
+.nav-title {
+  color: #181818;
+  font-size: 30px;
+  font-weight: 800;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+
+.listitem {
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.navitem {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  margin-left: 30px;
+  padding: 10px 35px;
+}
+.btn-primary:hover {
+  background-color: goldenrod;
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-cv {
+  width: 200px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: none;
+  color: var(--white-color, #fff);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.svglogo {
+  margin: 0px;
+  padding: 0px;
+  margin-right: 8px;
+}
+.btn-contact {
+  margin-left: 30px;
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fff8f3;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.framecontact {
+  margin: 0px;
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.personalimg {
+  width: 530px;
+  height: 650px;
+}
+.texthead {
+  color: var(--dark-02, #474747);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.name {
+  color: var(--dark-01, #181818);
+  font-family: Open Sans;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.details {
+  color: var(--dark-03, #757575);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.bg-text {
+  transform: rotate(-90deg);
+  color: rgba(24, 24, 24, 0.15);
+  font-family: Open Sans;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 23px;
+  margin-top: 300px;
+}
+
+.about {
+  padding: 130px;
+  margin-top: 130px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+  text-align: center;
+}
+table td {
+  padding: 2px 30px;
+  text-align: center;
+}
+table {
+  margin-top: 50px;
+}
+.dolist {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.experience {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+.boxexperience {
+  width: 187px;
+  height: 277px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 100px 3px grey;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.experiencename {
+  color: var(--dark-01, #181818);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 30px;
+  text-align: left;
+}
+.expedetails {
+  color: var(--dark-03, #757575);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.namesumary {
+  color: var(--dark-01, #181818);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.eductaionpart {
+  display: flex;
+  padding: 2px 30px;
+}
+.edu {
+  padding: 2px 40px;
+}
+.exp {
+  padding: 2px 40px;
+}
+
+.edutitle {
+  color: var(--dark-02, #474747);
+  font-family: Open Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.studyname {
+  color: var(--dark-02, #474747);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.season {
+  color: var(--dark-03, #757575);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.studydetails {
+  margin-top: 15px;
+  color: var(--dark-03, #757575);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.cvbutton {
+  margin: 40px;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  margin: auto;
+  padding: 140px 140px;
+  background-color: #fff8f3;
+}
+.connect {
+  padding: 0px 20px;
+  text-align: left;
+}
+.formsubmit {
+  padding-left: 10%;
+}
+
+.footertitle {
+  color: var(--dark-01, #181818);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.footerdetails {
+  color: var(--dark-02, #474747);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.connectlogo {
+  margin-top: 20px;
+}
+form > label {
+  display: block;
+  margin-bottom: 10px;
+}
+.input {
+  border: none;
+}
+
+form input {
+  border: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.textarea {
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.submitbtn {
+  border: 1px solid black;
+  margin-top: 30px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  padding: 10px 35px;
+}
+
+.submitbtn:hover {
+  background-color: goldenrod;
+  cursor: pointer;
+}
